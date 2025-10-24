@@ -25,7 +25,7 @@ header {
 
 header img.logo {
     width: 150px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 header h1 {
@@ -280,4 +280,30 @@ footer .social-icons a:hover {
 .car-item p {
     color: #007a3d;
     font-weight: bold;
+}
+
+/* Manager Section - Horizontal Layout */
+.manager-profile {
+  display: flex;
+  align-items: center;  /* vertically center the image and text */
+  justify-content: center;
+  max-width: 800px;
+  margin: 20px auto;
+  gap: 20px;  /* space between image and text */
+}
+
+.manager-pic {
+  width: 150px;   /* passport-size width */
+  height: 150px;  /* square or slightly rectangular */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.manager-info {
+  flex: 1;  /* take remaining horizontal space */
+}
+
+.manager-info p {
+  font-size: 1rem;
+  line-height: 1.5;
 }
